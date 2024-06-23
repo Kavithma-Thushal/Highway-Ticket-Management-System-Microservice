@@ -8,7 +8,6 @@ public class ConfigurationServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigurationServerApplication.class, args);
-        System.out.println("Hello World!");
     }
 
 }
