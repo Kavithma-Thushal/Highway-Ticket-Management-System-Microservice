@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerServiceApplication {
+public class CustomerService {
 
     public static void main(String[] args) {
-        SpringApplication.run(CustomerServiceApplication.class, args);
+        SpringApplication.run(CustomerService.class, args);
     }
-
 }
