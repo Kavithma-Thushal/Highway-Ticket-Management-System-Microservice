@@ -33,6 +33,13 @@ Independent services that handle specific business functions within the system.
 * User Service: Manages user authentication, authorization, and profiles.
 * Payment: Processes toll payments and transactions.
 
+## Prerequisites
+
+✅Java 11+<br/>
+✅Spring Boot<br/>
+✅Spring Cloud Config<br/>
+✅Spring Cloud Netflix (Eureka)<br/>
+
 ## Features
 
 * Scalability: Each service can be scaled independently based on traffic and workload.
@@ -52,13 +59,6 @@ Independent services that handle specific business functions within the system.
 4. Start Configuration Server:Ensure Spring Cloud Config Server is up and running and has access to the configuration
    repository.
 5. Start API Gateway:Ensure the API Gateway is up and running to route client requests to the appropriate microservices.
-
-## Prerequisites
-
-* Java 11+
-* Spring Boot
-* Spring Cloud Netflix (Eureka)
-* Spring Cloud Config
 
 ⭐️If you hava any bugs or issues ,If you want to explain code please contact me on :<br/>
 [kavithmathushal9007@gmail.com](https://www.kavithmathushal9007@gmail.com)<br/><br/>
