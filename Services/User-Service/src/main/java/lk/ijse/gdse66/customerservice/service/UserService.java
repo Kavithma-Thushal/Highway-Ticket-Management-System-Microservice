@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @author : Kavithma Thushal
- * @project : Customer-Service
+ * @project : User-Service
  * @since : 10:36 AM - 6/24/2024
  **/
 public interface UserService {

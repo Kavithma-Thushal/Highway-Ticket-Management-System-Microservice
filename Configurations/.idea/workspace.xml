@@ -5,17 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4e0c7-9954-401a-b47a-53bb1b94ae3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Services/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Services/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Services/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Services/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Services/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/java/lk/ijse/gdse66/apigateway/ApiGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/java/lk/ijse/gdse66/apigateway/Gateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/target/classes/lk/ijse/gdse66/apigateway/ApiGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/src/main/java/lk/ijse/gdse66/configurationserver/ConfigServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Server/src/main/java/lk/ijse/gdse66/configurationserver/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/src/main/resources/config/User-Service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Server/src/main/resources/config/User-Service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/target/classes/config/User-Service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-Server/src/main/resources/config/Payment-Service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-Server/target/classes/lk/ijse/gdse66/configurationserver/ConfigServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service-Registry/src/main/java/lk/ijse/gdse66/serviceregistry/ServiceRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Service-Registry/src/main/java/lk/ijse/gdse66/serviceregistry/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service-Registry/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service-Registry/target/classes/lk/ijse/gdse66/serviceregistry/ServiceRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/api/PaymentAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/PaymentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/PaymentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/PaymentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/User-Service/target/classes/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +56,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2iJfsj7uey6SznHQGQvY2hDKYTI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.API-Gateway [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -44,6 +80,11 @@
     "Spring Boot.ConfigServer.executor": "Run",
     "Spring Boot.ServiceRegistry.executor": "Run",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/AD2/Course-Work/Highway-Ticket-Management-System-Microservice/Configurations/Config-Server/src/main/resources/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -52,6 +93,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IJSE\Workspace\3rd Sem Repo\AD2\Course-Work\Highway-Ticket-Management-System-Microservice\Configurations\Config-Server\src\main\resources\config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -61,23 +112,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGateway">
-    <configuration name="ApiGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="API-Gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.apigateway.ApiGateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lk.ijse.gdse66.apigateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ServiceRegistry">
+    <configuration name="Config" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Config-Server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.configurationserver.ConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.configurationserver.Config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ijse.gdse66.configurationserver.*" />
@@ -88,9 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceRegistry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="API-Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.apigateway.Gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.gdse66.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registry" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Service-Registry" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.serviceregistry.ServiceRegistry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.serviceregistry.Registry" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lk.ijse.gdse66.serviceregistry.*" />
@@ -126,10 +177,15 @@
       <option name="presentableId" value="Default" />
       <updated>1719213808481</updated>
       <workItem from="1719213809676" duration="217000" />
+      <workItem from="1719214076560" duration="109000" />
+      <workItem from="1719215264877" duration="1814000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,11 +1,5 @@
-spring:
-  application:
-    name: Config-Server
-  profiles:
-    active: native
-
 server:
-  port: 8762
+  port: 8082
 
 eureka:
   client:

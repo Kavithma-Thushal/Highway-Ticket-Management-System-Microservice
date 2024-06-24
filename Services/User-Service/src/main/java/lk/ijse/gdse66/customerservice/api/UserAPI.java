@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @author : Kavithma Thushal
- * @project : Customer-Service
+ * @project : User-Service
  * @since : 9:47 PM - 6/23/2024
  **/
 @RestController

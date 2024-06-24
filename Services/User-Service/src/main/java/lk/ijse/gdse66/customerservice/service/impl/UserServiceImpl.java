@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * @author : Kavithma Thushal
- * @project : Customer-Service
+ * @project : User-Service
  * @since : 10:37 AM - 6/24/2024
  **/
 @Service
@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void saveUser(UserDTO userDTO) {
-        if (!userRepo.existsById(userDTO.getId())) {
+        if (!userRepo.existsById(userDTO.getUser_id())) {
             userRepo.save(modelMapper.map(userDTO, UserEntity.class));
         }
     }

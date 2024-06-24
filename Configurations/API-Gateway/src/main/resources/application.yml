@@ -9,9 +9,13 @@ spring:
             uri: lb://User-Service
             predicates:
               - Path=/api/v1/user/**
+          - id: Payment-Service
+            uri: lb://Payment-Service
+            predicates:
+              - Path=/api/v1/payment/**
 
 server:
-  port: 8081
+  port: 8080
 
 eureka:
   client:
