@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2ec024-67b2-4fe8-8b07-1bb14c451cd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Configurations/Config-Server/src/main/resources/config/Ticket-Service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/api/TicketAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/TicketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Configurations/Config-Server/src/main/resources/config/Vehicle-Service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/service/VehicleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Configurations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Configurations/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Configurations/API-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Configurations/API-Gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Configurations/API-Gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Configurations/API-Gateway/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/TicketDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/TicketEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/TicketRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ticket-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket-Service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/api/VehicleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/VehicleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/VehicleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/VehicleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/VehicleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicle-Service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,7 @@
     "Spring Boot.Ticket.executor": "Run",
     "Spring Boot.User.executor": "Run",
     "Spring Boot.UserService.executor": "Run",
+    "Spring Boot.Vehicle.executor": "Run",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Ticket">
+  <component name="RunManager" selected="Spring Boot.Vehicle">
     <configuration name="Payment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Payment-Service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.customerservice.Payment" />
@@ -130,8 +128,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Vehicle" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Vehicle-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.customerservice.Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.gdse66.customerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Vehicle" />
         <item itemvalue="Spring Boot.Ticket" />
         <item itemvalue="Spring Boot.Payment" />
         <item itemvalue="Spring Boot.User" />
@@ -158,6 +170,7 @@
       <workItem from="1719214081901" duration="3635000" />
       <workItem from="1719219342323" duration="343000" />
       <workItem from="1719219799262" duration="1246000" />
+      <workItem from="1719221322480" duration="1117000" />
     </task>
     <servers />
   </component>

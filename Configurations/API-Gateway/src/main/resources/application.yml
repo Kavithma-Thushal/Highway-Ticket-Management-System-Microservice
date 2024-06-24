@@ -17,6 +17,10 @@ spring:
             uri: lb://Ticket-Service
             predicates:
               - Path=/api/v1/ticket/**
+          - id: Vehicle-Service
+            uri: lb://Vehicle-Service
+            predicates:
+              - Path=/api/v1/vehicle/**
 
 server:
   port: 8080
