@@ -1,9 +1,13 @@
 package lk.ijse.gdse66.customerservice.api;
 
 import lk.ijse.gdse66.customerservice.dto.CustomerDTO;
+import lk.ijse.gdse66.customerservice.entity.CustomerEntity;
+import lk.ijse.gdse66.customerservice.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.List;
 
 /**
  * @author : Kavithma Thushal
@@ -17,16 +21,31 @@ public class CustomerAPI {
     @Autowired
     public RestTemplate restTemplate;
 
+    @Autowired
+    public CustomerService customerService;
+
     @PostMapping("/saveCustomer")
     public void saveCustomer(@RequestBody CustomerDTO customerDTO) {
-        System.out.println(customerDTO.getId());
-        System.out.println(customerDTO.getName());
-        System.out.println(customerDTO.getAddress());
-        System.out.println(customerDTO.getSalary());
+        customerService.saveCustomer(customerDTO);
     }
 
-    @GetMapping("/searchCustomer")
-    public String searchCustomer() {
-        return "C00-001, Kavithma Thushal, Galle, 90000";
+    @GetMapping("/searchCustomer/{id}")
+    public CustomerDTO searchCustomer(@PathVariable String id) {
+        return customerService.searchCustomer(id);
+    }
+
+    @PutMapping("/updateCustomer")
+    public void updateCustomer(@RequestBody CustomerDTO customerDTO) {
+        customerService.updateCustomer(customerDTO);
+    }
+
+    @DeleteMapping("/deleteCustomer/{id}")
+    public void deleteCustomer(@PathVariable String id) {
+        customerService.deleteCustomer(id);
+    }
+
+    @GetMapping("/loadAllCustomers")
+    public List<CustomerEntity> loadAllCustomers() {
+        return customerService.loadAllCustomers();
     }
 }
