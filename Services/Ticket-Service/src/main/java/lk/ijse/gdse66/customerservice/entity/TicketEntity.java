@@ -10,7 +10,7 @@ import lombok.Setter;
 
 /**
  * @author : Kavithma Thushal
- * @project : User-Service
+ * @project : Ticket-Service
  * @since : 10:37 AM - 6/24/2024
  **/
 @AllArgsConstructor
@@ -18,11 +18,11 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "user")
-public class UserEntity {
+@Table(name = "ticket")
+public class TicketEntity {
     @Id
-    private String id;
-    private String name;
-    private String address;
-    private String salary;
+    private String ticket_id;
+    private String ticket_description;
+    private String ticket_price;
+    private String ticket_quantity;
 }

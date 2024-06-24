@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b4e0c7-9954-401a-b47a-53bb1b94ae3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/api/PaymentAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/dto/PaymentDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/entity/PaymentEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/repo/PaymentRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/service/PaymentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Services/Payment-Service/target/classes/lk/ijse/gdse66/customerservice/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config-Server/src/main/resources/config/Ticket-Service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/api/TicketAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/TicketServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-Gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/API-Gateway/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Services/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/dataSources/15634ff4-ca17-45a1-afc5-a75a9a941e84.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Services/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Payment-Service/src/main/java/lk/ijse/gdse66/customerservice/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/api/UserAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/dto/TicketDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/entity/TicketEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/repo/TicketRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/java/lk/ijse/gdse66/customerservice/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Services/Ticket-Service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,35 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.API-Gateway [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ApiGateway.executor": "Run",
-    "Spring Boot.Config.executor": "Run",
-    "Spring Boot.ConfigServer.executor": "Run",
-    "Spring Boot.Gateway.executor": "Run",
-    "Spring Boot.Registry.executor": "Run",
-    "Spring Boot.ServiceRegistry.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IJSE/Workspace/3rd Sem Repo/AD2/Course-Work/Highway-Ticket-Management-System-Microservice/Configurations/Config-Server/src/main/resources/config",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.API-Gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGateway.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Config.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServer.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Registry.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ServiceRegistry.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IJSE/Workspace/3rd Sem Repo/AD2/Course-Work/Highway-Ticket-Management-System-Microservice/Configurations/Config-Server/src/main/resources/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IJSE\Workspace\3rd Sem Repo\AD2\Course-Work\Highway-Ticket-Management-System-Microservice\Configurations\Config-Server\src\main\resources\config" />
@@ -85,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Gateway">
+  <component name="RunManager" selected="Spring Boot.Registry">
     <configuration name="Config" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Config-Server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lk.ijse.gdse66.configurationserver.Config" />
@@ -153,6 +159,7 @@
       <workItem from="1719214076560" duration="109000" />
       <workItem from="1719215264877" duration="1814000" />
       <workItem from="1719219263459" duration="410000" />
+      <workItem from="1719219755998" duration="1245000" />
     </task>
     <servers />
   </component>

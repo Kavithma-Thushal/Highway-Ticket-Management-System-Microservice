@@ -8,12 +8,17 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @author : Kavithma Thushal
+ * @project : Ticket-Service
+ * @since : 9:49 PM - 6/23/2024
+ **/
 @SpringBootApplication
 @EnableDiscoveryClient
-public class UserService {
+public class Ticket {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserService.class, args);
+        SpringApplication.run(Ticket.class, args);
     }
 
     @Bean

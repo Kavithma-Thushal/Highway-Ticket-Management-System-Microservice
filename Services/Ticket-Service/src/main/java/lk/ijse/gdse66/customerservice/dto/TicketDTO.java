@@ -7,16 +7,16 @@ import lombok.Setter;
 
 /**
  * @author : Kavithma Thushal
- * @project : User-Service
+ * @project : Ticket-Service
  * @since : 9:49 PM - 6/23/2024
  **/
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class UserDTO {
-    private String id;
-    private String name;
-    private String address;
-    private String salary;
+public class TicketDTO {
+    private String ticket_id;
+    private String ticket_description;
+    private String ticket_price;
+    private String ticket_quantity;
 }
