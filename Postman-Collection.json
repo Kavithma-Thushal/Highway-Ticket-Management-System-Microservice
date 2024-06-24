@@ -1,0 +1,125 @@
+{
+  "name": "Highway-Ticket-Management-System-Postman-Collection",
+  "folders": [
+    {
+      "name": "Vehicle Service",
+      "requests": [
+        {
+          "name": "Save Vehicle",
+          "method": "POST",
+          "url": "http://localhost:8080/api/v1/vehicle/saveVehicle"
+        },
+        {
+          "name": "Search Vehicle",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/vehicle/searchVehicle/V00-001"
+        },
+        {
+          "name": "Update Vehicle",
+          "method": "PUT",
+          "url": "http://localhost:8080/api/v1/vehicle/updateVehicle"
+        },
+        {
+          "name": "Delete Vehicle",
+          "method": "DELETE",
+          "url": "http://localhost:8080/api/v1/vehicle/deleteVehicle/V00-002"
+        },
+        {
+          "name": "Load All Vehicles",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/vehicle/loadAllVehicles"
+        }
+      ]
+    },
+    {
+      "name": "Ticket Service",
+      "requests": [
+        {
+          "name": "Save Ticket",
+          "method": "POST",
+          "url": "http://localhost:8080/api/v1/ticket/saveTicket"
+        },
+        {
+          "name": "Search Ticket",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/ticket/searchTicket/T00-001"
+        },
+        {
+          "name": "Update Ticket",
+          "method": "PUT",
+          "url": "http://localhost:8080/api/v1/ticket/updateTicket"
+        },
+        {
+          "name": "Delete Ticket",
+          "method": "DELETE",
+          "url": "http://localhost:8080/api/v1/ticket/deleteTicket/T00-002"
+        },
+        {
+          "name": "Load All Tickets",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/ticket/loadAllTickets"
+        }
+      ]
+    },
+    {
+      "name": "Payment Service",
+      "requests": [
+        {
+          "name": "Save Payment",
+          "method": "POST",
+          "url": "http://localhost:8080/api/v1/payment/savePayment"
+        },
+        {
+          "name": "Search Payment",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/payment/searchPayment/P00-001"
+        },
+        {
+          "name": "Update Payment",
+          "method": "PUT",
+          "url": "http://localhost:8080/api/v1/payment/updatePayment"
+        },
+        {
+          "name": "Delete Payment",
+          "method": "DELETE",
+          "url": "http://localhost:8080/api/v1/payment/deletePayment/P00-002"
+        },
+        {
+          "name": "Load All Payments",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/payment/loadAllPayments"
+        }
+      ]
+    },
+    {
+      "name": "User Service",
+      "requests": [
+        {
+          "name": "Save User",
+          "method": "POST",
+          "url": "http://localhost:8080/api/v1/user/saveUser"
+        },
+        {
+          "name": "Search User",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/user/searchUser/C00-001"
+        },
+        {
+          "name": "Update User",
+          "method": "PUT",
+          "url": "http://localhost:8080/api/v1/user/updateUser"
+        },
+        {
+          "name": "Delete User",
+          "method": "DELETE",
+          "url": "http://localhost:8080/api/v1/user/deleteUser/C00-002"
+        },
+        {
+          "name": "Load All Users",
+          "method": "GET",
+          "url": "http://localhost:8080/api/v1/user/loadAllUsers"
+        }
+      ]
+    }
+  ]
+}
