@@ -5,14 +5,10 @@ spring:
     gateway:
       mvc:
         routes:
-          - id: Customer-Service
-            uri: lb://Customer-Service
+          - id: User-Service
+            uri: lb://User-Service
             predicates:
-              - Path=/api/v1/customer/**
-          - id: Item-Service
-            uri: lb://Item-Service
-            predicates:
-              - Path=/api/v1/item/**
+              - Path=/api/v1/user/**
 
 server:
   port: 8081
